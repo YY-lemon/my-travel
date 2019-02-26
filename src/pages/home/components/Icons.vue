@@ -25,7 +25,7 @@ export default {
         {
           id:'0001',
           imgUrl:"http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
-          desc:'景点门票景点门票景点门票景点门票景点门票景点门票景点门票'
+          desc:'景点门票'
         }, {
           id:'0002',
           imgUrl:"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
@@ -83,6 +83,7 @@ export default {
 </script>
 <style lang='less'scoped>
 .icons {
+  margin-top: 0.2rem;
   /deep/ .swiper-container {
     width: 100%;
     height: 0;
@@ -97,11 +98,11 @@ export default {
     position: relative;
     .icon-img {
       position: absolute;
-      bottom: 0.22rem;
+      bottom: 0.44rem;
       right: 0;
       top: 0;
       left: 0;
-      padding: 0.05rem;
+      padding: 0.1rem;
       box-sizing: border-box;
       img {
         height: 100%;
@@ -113,8 +114,8 @@ export default {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 0.22rem;
-        line-height: 0.22rem;
+        height: 0.44rem;
+        line-height: 0.44rem;
         color: #333;
         text-align: center;
         overflow: hidden;

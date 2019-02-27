@@ -6,10 +6,13 @@
         <div class="header-input">
             <span class="iconfont icon-sousuo"></span> 
             输入城市/景点/游玩主题</div>
-        <div class="header-right">
-            {{this.city}}
-            <span class="iconfont icon-jiantouarrow486 arrow-icon"></span>
-        </div>
+        <router-link to="/city">
+            <div class="header-right">
+                {{this.city}}
+                <span class="iconfont icon-jiantouarrow486 arrow-icon"></span>
+            </div>
+        </router-link>
+        
     </div>
 </template>
 <script>
@@ -51,6 +54,7 @@ export default {
             width: 1.24rem;
             float: right;
             text-align: center;
+            color:#fff;
             .arrow-icon {
                 font-size: 16px;
                 margin-left: -0.08rem;
